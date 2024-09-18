@@ -62,8 +62,8 @@ def plot_and_save_training_data(data, output_folder):
     print(f"Plots have been saved in the '{output_folder}' directory.")
 
 if __name__ == "__main__":
-    json_file_path = 'model_2_training_data.json'    
-    output_folder = 'training_plots_2'
+    json_file_path = 'test/model_1_training_data.json'    
+    output_folder = 'test/training_plots_1'
     # Load the data
     training_data = load_data(json_file_path)
     plot_and_save_training_data(training_data, output_folder)
